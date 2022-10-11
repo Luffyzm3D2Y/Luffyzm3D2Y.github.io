@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>programingPracticeForML | Jasper&#39;s Blog, my own microcosm, mixed sodas of code and life</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Override、Overwrite、OverloadOverride、Overwrite、Overload  Override or Overwrite 重写&#x2F;覆写 发生在子父类中，子类override了父类的同名方法，子类调用方法时优先调用子类方法。  Overload 重载 发生在本类中，重载方法，使得该方法可以传递多种类型和个数的参数，灵活调用   在Java中override和">
+<meta property="og:type" content="article">
+<meta property="og:title" content="programingPracticeForML">
+<meta property="og:url" content="https://luffyzm3d2y.github.io/2022/10/11/programingPracticeForML/index.html">
+<meta property="og:site_name" content="Jasper&#39;s Blog, my own microcosm, mixed sodas of code and life">
+<meta property="og:description" content="Override、Overwrite、OverloadOverride、Overwrite、Overload  Override or Overwrite 重写&#x2F;覆写 发生在子父类中，子类override了父类的同名方法，子类调用方法时优先调用子类方法。  Overload 重载 发生在本类中，重载方法，使得该方法可以传递多种类型和个数的参数，灵活调用   在Java中override和">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-10-11T11:18:24.000Z">
+<meta property="article:modified_time" content="2022-10-11T11:19:14.216Z">
+<meta property="article:author" content="Jasper You">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Jasper&#39;s Blog, my own microcosm, mixed sodas of code and life" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 5.4.2"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Jasper&#39;s Blog, my own microcosm, mixed sodas of code and life</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://Luffyzm3D2Y.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-programingPracticeForML" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2022/10/11/programingPracticeForML/" class="article-date">
+  <time datetime="2022-10-11T11:18:24.000Z" itemprop="datePublished">2022-10-11</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      programingPracticeForML
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="Override、Overwrite、Overload"><a href="#Override、Overwrite、Overload" class="headerlink" title="Override、Overwrite、Overload"></a>Override、Overwrite、Overload</h1><p><strong>Override、Overwrite、Overload</strong></p>
+<ol>
+<li><p>Override or Overwrite 重写&#x2F;覆写</p>
+<p><strong>发生在子父类中</strong>，子类override了父类的同名方法，子类调用方法时优先调用子类方法。</p>
+</li>
+<li><p>Overload 重载</p>
+<p><strong>发生在本类中，重载方法，使得该方法可以传递多种类型和个数的参数，灵活调用</strong></p>
+</li>
+</ol>
+<p>在<strong>Java</strong>中override和overload都是实现多态的重要方式</p>
+<span id="more"></span>
+
+<h1 id="Dataset-DatasetLoader-nn-Module"><a href="#Dataset-DatasetLoader-nn-Module" class="headerlink" title="Dataset,DatasetLoader,nn.Module"></a>Dataset,DatasetLoader,nn.Module</h1><p><strong>torch.utils.data.Dataset</strong></p>
+<p><strong>torch.utils.data.DatasetLoader</strong></p>
+<p>构建数据集，需要实现接口Dataset创建自定义的数据集类，实现<code>__init__,__getitem__,__len__</code></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> torch.utils.data <span class="keyword">import</span> Dataset</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Covid19Dataset</span>(<span class="title class_ inherited__">Dataset</span>):</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self,x, y=<span class="literal">None</span></span>):</span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__getitem__</span>(<span class="params">self,idx</span>):</span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__len__</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="keyword">pass</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<p><strong>torch.nn.Module</strong></p>
+<p>模型Model，构建模型时，可以通过实现nn.Module接口构建自定义的模型MyModel，</p>
+<ol>
+<li><p>需要实现<code>__init__</code>,<code>forward</code>方法</p>
+</li>
+<li><p>与<code>nn.Module</code>有关的模块有</p>
+</li>
+</ol>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> torch.nn <span class="keyword">as</span> nn</span><br><span class="line"></span><br><span class="line"><span class="comment">#理解并解释下列三行代码作用</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">MRO是方法解析顺序，用于定义多继承中的方法调用顺序</span></span><br><span class="line"><span class="string">在python类的定义中，函数的第一个参数是实例对象本身（instance），通常用self表示</span></span><br><span class="line"><span class="string">super() equals super(__class__,self) 根据self的MRO来寻找需要调用的方法</span></span><br><span class="line"><span class="string">super(type,obj)</span></span><br><span class="line"><span class="string">super(type1,type2)</span></span><br><span class="line"><span class="string">super()相当于实例化一个super对象，给super()提供一个MRO和MRO中的一个类，返回从MRO中该类之后的类查找方法的对象</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Net</span>(nn.Module):</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="comment">#继承了父类nn.Module的属性和方法，自然要先使用父类的init方法对属性和方法进行初始化</span></span><br><span class="line">        <span class="built_in">super</span>(Net,self).__init__()</span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">forward</span>(<span class="params">self,x</span>):</span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line">        <span class="keyword">return</span> x</span><br></pre></td></tr></table></figure>
+
+<h1 id="Tqdm第三方库"><a href="#Tqdm第三方库" class="headerlink" title="Tqdm第三方库"></a>Tqdm第三方库</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> tqdm <span class="keyword">import</span> tqdm,trange</span><br><span class="line"><span class="keyword">import</span> time</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> tqdm(<span class="built_in">range</span>(<span class="number">20</span>),desc=<span class="string">&quot;It\&#x27;s a test&quot;</span>):</span><br><span class="line">    time.sleep(<span class="number">0.1</span>)</span><br></pre></td></tr></table></figure>
+
+<p><code>tqdm()</code>主要参数：</p>
+<ul>
+<li><code>iterable=None</code>，可迭代对象</li>
+<li><code>desc=None</code>，description, 放在进度条首（标题）</li>
+<li><code>postfix</code>，以字典形式传入详细信息，显示在进度条中，如<code>postfix=&#123;&#39;value&#39;:50&#125;</code></li>
+<li><code>ncols=None</code>，自定义进度条的总长度，建议设置为<code>ncols=70</code></li>
+<li><code>unit</code>，描述处理项目的文字，默认为<code>it</code></li>
+<li><code>total=None</code>,指定进度条长度，一般来说不用指定，默认用<code>len(Iterable)</code>获取长度</li>
+</ul>
+<p><code>tqdm()</code>返回值为一个可迭代对象，该对象可以修改进度条信息</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">with</span> tqdm(<span class="built_in">range</span>(<span class="number">100</span>), desc=<span class="string">&#x27;Test&#x27;</span>) <span class="keyword">as</span> tbar:</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> tbar:</span><br><span class="line">        tbar.set_postfix(loss=i/<span class="number">100</span>, x=i)</span><br><span class="line">        tbar.update()  <span class="comment"># 默认参数n=1，每update一次，进度+n</span></span><br><span class="line">        time.sleep(<span class="number">0.2</span>)</span><br></pre></td></tr></table></figure>
+
+<p>一些方法修改进度条或者添加额外信息：</p>
+<p><code>tbar.set_postfix(**kw)</code></p>
+<p><code>tbar.update()</code></p>
+<p><code>tbar.write(&quot;额外的信息与内容&quot;)</code></p>
+<hr>
+<h1 id="torch-utils-data-random-split"><a href="#torch-utils-data-random-split" class="headerlink" title="torch.utils.data.random_split()"></a>torch.utils.data.random_split()</h1><p><code>torch.utils.data.random_split(dataset:Dataset, lengths:sequence, generator=&lt;torch._C.Generator object&gt;:Generator)</code></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> torch</span><br><span class="line"><span class="keyword">from</span> torch.utils.data <span class="keyword">import</span> random_split</span><br><span class="line">dataset = <span class="built_in">range</span>(<span class="number">10</span>)</span><br><span class="line">train_dataset, test_dataset = random_split(</span><br><span class="line">    dataset=dataset,</span><br><span class="line">    lengths=[<span class="number">7</span>, <span class="number">3</span>],</span><br><span class="line">    generator=torch.Generator().manual_seed(<span class="number">0</span>)</span><br><span class="line">)</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">list</span>(train_dataset))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">list</span>(test_dataset))</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">torch.default_generator</span><br><span class="line">torch.manual_seed(<span class="number">0</span>)</span><br><span class="line">torch.Generator(device=<span class="string">&quot;cuda&quot;</span>)</span><br><span class="line">torch.Generator().manual_seed(<span class="number">0</span>)</span><br><span class="line">torch.default_generator.device</span><br><span class="line">torch.default_generator.initial_seed()</span><br></pre></td></tr></table></figure>
+
+<p>通过<strong>设置伪随机数生成器的随机种子</strong>，使得该划分随机且可复现</p>
+<hr>
+<h1 id="机器学习中的随机数"><a href="#机器学习中的随机数" class="headerlink" title="机器学习中的随机数"></a>机器学习中的随机数</h1><h2 id="机器学习中的随机性"><a href="#机器学习中的随机性" class="headerlink" title="机器学习中的随机性"></a>机器学习中的随机性</h2><ul>
+<li>数据   噪音，采样随机</li>
+<li>评估   K折交叉验证，利用随机性评估模型在平均水平的工作性能</li>
+<li>算法   避免过拟合，使用随机算法；如人工神经网络的参数的随机初始化</li>
+</ul>
+<h2 id="伪随机数发生器"><a href="#伪随机数发生器" class="headerlink" title="伪随机数发生器"></a>伪随机数发生器</h2><p>随机数发生器是以真正的随机性来源生成随机数的系统；</p>
+<p>伪随机数发生器是使用确定性过程生成随机数的系统。</p>
+<p>伪随机数发生器，包含<strong>随机种子</strong>，<strong>相同的随机种子会产生相同的随机数序列</strong>。</p>
+<p><strong>通过提前设置随机种子控制机器学习过程中的随机性，保证可复现和一致性</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">same_seed</span>(<span class="params">seed</span>): </span><br><span class="line">    <span class="string">&#x27;&#x27;&#x27;Fixes random number generator seeds for reproducibility.&#x27;&#x27;&#x27;</span></span><br><span class="line">    torch.backends.cudnn.deterministic = <span class="literal">True</span></span><br><span class="line">    torch.backends.cudnn.benchmark = <span class="literal">False</span></span><br><span class="line">    np.random.seed(seed)</span><br><span class="line">    torch.manual_seed(seed)</span><br><span class="line">    <span class="keyword">if</span> torch.cuda.is_available():</span><br><span class="line">        torch.cuda.manual_seed_all(seed)</span><br></pre></td></tr></table></figure>
+
+<h2 id="Python-random"><a href="#Python-random" class="headerlink" title="Python random"></a>Python random</h2><p>使用<code>Mersenne Twister</code></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> random</span><br><span class="line">random.seed(<span class="number">10</span>)</span><br><span class="line"><span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">5</span>):</span><br><span class="line">    <span class="built_in">print</span>(random.random())</span><br></pre></td></tr></table></figure>
+
+<h2 id="Numpy"><a href="#Numpy" class="headerlink" title="Numpy"></a>Numpy</h2><p>使用<code>Mersenne Twister</code></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> numpy.random <span class="keyword">as</span> nprandom</span><br><span class="line">nprandom.seed(<span class="number">10</span>)</span><br><span class="line"><span class="built_in">print</span>(nprandom.rand(<span class="number">5</span>))</span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="common-shortcuts-of-Jupyter-notebook-in-VSCode"><a href="#common-shortcuts-of-Jupyter-notebook-in-VSCode" class="headerlink" title="common shortcuts of Jupyter notebook in VSCode"></a><strong>common shortcuts of Jupyter notebook in VSCode</strong></h1><p>Operations except the last one are all in <code>cell command mode</code>.  </p>
+<ol>
+<li><p><code>Shift+Enter</code> 执行本单元</p>
+</li>
+<li><p><code>Ctrl+Enter</code> 执行本单元并选中下一单元</p>
+</li>
+<li><p><code>M</code> 将本单元转为markdown cell</p>
+</li>
+<li><p><code>Y</code> 将本单元转为code cell</p>
+</li>
+<li><p><code>D,D</code> 删除本单元</p>
+</li>
+<li><p><code>B</code> 在下方增加一单元块</p>
+</li>
+<li><p><code>Enter</code> 进入本单元的编辑模式</p>
+</li>
+<li><p><code>Esc</code> 退出编辑模式，转为命令模式(<code>cell edit mode</code>)</p>
+</li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://luffyzm3d2y.github.io/2022/10/11/programingPracticeForML/" data-id="cl944gbnh000154uyalt3fcne" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2022/10/11/%E5%BE%AE%E7%A7%AF%E5%88%86%E4%B8%8E%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90%E4%B8%AD%E6%9C%89%E5%85%B3%E5%87%BD%E6%95%B0%E6%B8%90%E8%BF%91%E7%9A%84%E7%95%8C%E7%9A%84%E5%AE%9A%E7%90%86/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          微积分与算法分析中有关函数渐近的界的定理
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2022/10/11/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/10/">October 2022</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2022/10/11/%E5%BE%AE%E7%A7%AF%E5%88%86%E4%B8%8E%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90%E4%B8%AD%E6%9C%89%E5%85%B3%E5%87%BD%E6%95%B0%E6%B8%90%E8%BF%91%E7%9A%84%E7%95%8C%E7%9A%84%E5%AE%9A%E7%90%86/">微积分与算法分析中有关函数渐近的界的定理</a>
+          </li>
+        
+          <li>
+            <a href="/2022/10/11/programingPracticeForML/">programingPracticeForML</a>
+          </li>
+        
+          <li>
+            <a href="/2022/10/11/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2022 Jasper You<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
