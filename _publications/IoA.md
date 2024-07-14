@@ -7,7 +7,7 @@ date: 2024-07-07
 # venue: 'Journal 1'
 githuburl: 'https://github.com/OpenBMB/IoA'
 paperurl: 'https://arxiv.org/pdf/2407.07061'
-citation: 'Chen, Weize, Ziming You, Ran Li, Yitong Guan, Chen Qian, Chenyang Zhao, Cheng Yang, Ruobing Xie, Zhiyuan Liu, and Maosong Sun. 2024. “Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence.” arXiv. https://arxiv.org/abs/2407.07061'
+citation: 'Chen, W., You, Z., Li, R., Guan, Y., Qian, C., Zhao, C., ... & Sun, M. (2024). Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence. arXiv preprint arXiv:2407.07061.'
 ---
 **Publication Under Review**
 
