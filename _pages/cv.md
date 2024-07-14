@@ -11,8 +11,9 @@ redirect_from:
 
 Education
 ======
-* M.S. in Software and Microelectronics, Peking University, 2025 (expected)
-* B.S. in Computer Science, Beihang University, 2022
+* 2022.09 - 2025.06, M.S.@Peking University, Computer Technology
+* 2018.09 - 2022.06, B.S.@Beihang University, Computer Science & Engineering
+* **Language**: Chinese (native), English (intermediate)
 
 Work experience
 ======
@@ -22,7 +23,7 @@ Work experience
     Conducted research on multi-agent systems, contributing to the development of the Internet of Agents (IoA) framework and co-authored the paper “Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence,” currently under review. Ongoing work and future plans are being actively pursued.
   * Supervisor: [Weize Chen](https://scholar.google.com.hk/citations?user=0CoGHtIAAAAJ&hl=zh-CN)
 
-* May 2023 - October 2023: Large Language Model Algorithm Engineering Intern
+* May 2023 - October 2023: Large Language Model Engineering Intern
   * [ModelBest](modelbest.cn)
   * Duties included:
     1.	Enhancement of large language model capabilities (primarily focused on reproducing and improving research in the alignment stage and data generation for Chinese models):
@@ -35,7 +36,7 @@ Work experience
 
 
   
-Skills
+Personal Skills
 ======
 * Skill 1
 * Skill 2
@@ -49,3 +50,10 @@ Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+🎖 Honors and Awards
+======
+* Modelbest Excellent Internship Award, 2023
+* Outstanding Graduates of BUAA, 2022
+* National Endeavor Scholarship, Beihang University, 2019-2020
+* BUAA Academic Excellence Scholarship, 2019-2020
