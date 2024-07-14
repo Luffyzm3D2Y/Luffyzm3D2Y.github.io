@@ -36,7 +36,8 @@ Work experience
 
 
     2.	Application of large models in the financial vertical (toB business):
-    •	Explored and facilitated the integration of large language models into financial services.
+    
+        •	Explored and facilitated the integration of large language models into financial services.
   * Supervisor: [Zhi Zheng](https://github.com/zh-zheng), [Zhongwu Zhai](https://scholar.google.com/citations?user=KRughd8AAAAJ&hl=zh-CN)
 
 
