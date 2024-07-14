@@ -9,18 +9,18 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+🎓 Education
 ======
 * 2022.09 - 2025.06, M.S.@Peking University, Computer Technology (expected)
 * 2018.09 - 2022.06, B.S.@Beihang University, Computer Science & Engineering
 * **Language**: Chinese (native), English (intermediate)
 
-Work experience
+🎲 Work experience
 ======
 * November 2023 - Present: Research Intern (remote from March 2024)
   * THUNLP, Tsinghua University
   * Duties included: 
-  
+
     Conducted research on multi-agent systems, contributing to the development of the Internet of Agents (IoA) framework and co-authored the paper “Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence,” currently under review. Ongoing work and future plans are being actively pursued.
   * Supervisor: [Weize Chen](https://scholar.google.com.hk/citations?user=0CoGHtIAAAAJ&hl=zh-CN)
 
@@ -43,7 +43,7 @@ Work experience
 
 
   
-Personal Skills
+🧰 Personal Skills
 ======
 * Skill 1
 * Skill 2
@@ -52,7 +52,7 @@ Personal Skills
   * Sub-skill 2.3
 * Skill 3
 
-Publications
+📝 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
