@@ -20,6 +20,7 @@ Work experience
 * November 2023 - Present: Research Intern (remote from March 2024)
   * THUNLP, Tsinghua University
   * Duties included: 
+  
     Conducted research on multi-agent systems, contributing to the development of the Internet of Agents (IoA) framework and co-authored the paper “Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence,” currently under review. Ongoing work and future plans are being actively pursued.
   * Supervisor: [Weize Chen](https://scholar.google.com.hk/citations?user=0CoGHtIAAAAJ&hl=zh-CN)
 
