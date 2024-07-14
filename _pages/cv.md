@@ -11,7 +11,7 @@ redirect_from:
 
 🎓 Education
 ======
-* 2022.09 - 2025.06, M.S.@Peking University, Computer Technology (expected)
+* 2022.09 - 2025.06, M.S.@Peking University, Software Engineering (expected)
 * 2018.09 - 2022.06, B.S.@Beihang University, Computer Science & Engineering
 * **Language**: Chinese (native), English (intermediate)
 
