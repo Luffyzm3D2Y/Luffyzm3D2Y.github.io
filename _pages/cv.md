@@ -11,26 +11,29 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.S. in Software and Microelectronics, Peking University, 2025 (expected)
+* B.S. in Computer Science, Beihang University, 2022
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* November 2023 - Present: Research Intern (remote from March 2024)
+  * THUNLP, Tsinghua University
+  * Duties included: 
+    Conducted research on multi-agent systems, contributing to the development of the Internet of Agents (IoA) framework and co-authored the paper “Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence,” currently under review. Ongoing work and future plans are being actively pursued.
+  * Supervisor: [Weize Chen](https://scholar.google.com.hk/citations?user=0CoGHtIAAAAJ&hl=zh-CN)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* May 2023 - October 2023: Large Language Model Algorithm Engineering Intern
+  * [ModelBest](modelbest.cn)
+  * Duties included:
+    1.	Enhancement of large language model capabilities (primarily focused on reproducing and improving research in the alignment stage and data generation for Chinese models):
+    •	Reproduced and improved several research works to enhance the instruction-following capabilities of large language models.
+    •	Enhanced the multi-turn dialogue capabilities of large language models.
+    •	Contributed to the security construction of large model systems.
+    2.	Application of large models in the financial vertical (toB business):
+    •	Explored and facilitated the integration of large language models into financial services.
+  * Supervisor: [Zhi Zheng](https://github.com/zh-zheng), [Zhongwu Zhai](https://scholar.google.com/citations?user=KRughd8AAAAJ&hl=zh-CN)
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+
   
 Skills
 ======
@@ -46,19 +49,3 @@ Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
