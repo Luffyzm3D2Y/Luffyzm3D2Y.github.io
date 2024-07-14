@@ -9,6 +9,6 @@ githuburl: 'https://github.com/OpenBMB/IoA'
 paperurl: 'https://arxiv.org/pdf/2407.07061'
 citation: 'Chen, Weize, Ziming You, Ran Li, Yitong Guan, Chen Qian, Chenyang Zhao, Cheng Yang, Ruobing Xie, Zhiyuan Liu, and Maosong Sun. 2024. “Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence.” arXiv. https://arxiv.org/abs/2407.07061'
 ---
-**Publications Under Review**
+**Publication Under Review**
 
 An open-sourced multi-agent framework, the Internet of Agents (IoA), effectively connects diverse heterogeneous agents for collaborative intelligence. Experimental results demonstrate IoA’s superior performance across a wide range of tasks, proving its effectiveness and flexibility in facilitating agent collaboration. The codebase is available at [GitHub](https://github.com/OpenBMB/IoA). **The paper is currently under review, with ongoing work in progress.**
