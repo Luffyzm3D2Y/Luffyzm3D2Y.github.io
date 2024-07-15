@@ -22,7 +22,7 @@ redirect_from:
   * Duties included: 
 
     Conducted research on multi-agent systems, contributing to the development of the Internet of Agents (IoA) framework and co-authored the paper “Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence,” currently under review. Ongoing work and future plans are being actively pursued.
-  * Supervisor: [Weize Chen](https://scholar.google.com.hk/citations?user=0CoGHtIAAAAJ&hl=zh-CN)
+  * Supervisor: [Zhiyuan Liu](https://scholar.google.com/citations?user=dT0v5u0AAAAJ&hl=en)
 
 * May 2023 - October 2023: Large Language Model Engineering Intern
   * [ModelBest](modelbest.cn)
