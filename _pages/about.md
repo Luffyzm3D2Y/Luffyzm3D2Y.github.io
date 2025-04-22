@@ -6,12 +6,17 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am Ziming You, a Master’s student in the School of Software & Microelectronics at Peking University, currently in my second year. I graduated with a Bachelor’s degree in Computer Science from Beihang University in 2022. My Master’s advisor is [Prof. Yu Huang](https://group.pku.edu.cn/hy/zh_CN/index.htm).
+Hi there! I'm Ziming You, a Master's student at my final year from Peking University (M.Eng. Program), majoring in Software Engineering. I graduated with a Bachelor’s degree in Computer Science and Technology from Beihang University in 2022. Currently I'm working as a research intern at [THUNLP](https://nlp.csai.tsinghua.edu.cn/), supervised by [Zhiyuan Liu](https://scholar.google.com/citations?user=dT0v5u0AAAAJ&hl=en).
+
 **Research Interests**
-I am generally interested in Natural Language Processing, and Machine Learning. Recently, I am specifically interested in agents, multi-agent systems, and alignment. I am currently applying for a Ph.D. program.
+My research interests mainly focus on Natural Language Processing, especially Large Language Models(LLMs) and their applications, including LLM/VLM Agent, Multi-Agent System, Post-training techniques (i.e. reinforcement learning for LLM reasoning).
+
+Currently I'm working on reinforcement learning for reasoning with large language models (LLMs). Moving forward, I’m particularly interested in the following research problems:
+
+- At the model level: **How to train more capable LLM/VLM-based agents via reinforcement learning? It involves environment construction, training recipe, evaluation and so on.**
 
 
-I have experience working as a Large Language Model Algorithm Engineering Intern at [ModelBest](https://modelbest.cn/) (May 2023 - October 2023) and as a Research Intern at [THUNLP](https://nlp.csai.tsinghua.edu.cn/) (November 2023 - present, transitioning to remote work in March 2024), where my research focus is on multi-agent systems.
+- At the agent architecture level: **What can we really borrow from cognitive science and traditional agent architectures to build more effective and generalizable agents?**
 
 You can find my CV here: [Ziming You's Curriculum Vitae](../assets/CV.pdf).
 
